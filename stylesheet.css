@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background-color: #fffff;
+  color: black;
+  font-size: 15px;
+  line-height: 2;
+  max-width: 960px;
+}
+
+p,h1,h2 {
+  margin-top: 0;
+  margin-left: 10px
+}
+
+img {
+  vertical-align: bottom;
+  width: 10%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ヘッダー */
+header {
+  width: 960px;
+  height: 120px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.logo {
+  float: left;
+  width: 150%;
+  margin: 10px 0 0 40px;
+}
+
+.global-nav {
+  float: right;
+}
+
+.global-nav li {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+main {
+  clear: both;
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+footer small {
+  font-size: 12px;
+  width: 960px;
+}
+
+#top h1 {
+  font-size: 120px;
+  line-height: 1;
+  color: #ffffff;
+  margin: 0 20px 0;
+  text-decoration: none;
+  border: none;
+}
+
+#top p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+#top {
+  padding: 180px 0;
+  background-image: url(../images/key-visual.JPG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* トップ　*/
+
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #ff8c00;
+}
+
+h1 {
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* about */
+
+.profile-text {
+  float: left;
+  width: 540px;
+}
+
+.profile-text p {
+  text-indent: 1em;
+}
+
+.profile-image {
+  float: right;
+  width: 30%;
+  margin: 60px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#about .career th {
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+
+#about .career td {
+  border: 1px solid #cccccc;
+  text-align: center;
+  width: 600px;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-left: 60px;
+}
+
+/* photo */
+
+#photo .photo-list li {
+  width: 10px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  margin: 0 420px 20px 30px; 
+}
+
+#photo .photo-list li img {
+  width: 430px;
+}
+
+p .adress {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+/* レスポンシブ対応 */
+
+@media screen and (max-width: 480px){
+  /* 画面幅480pxまで */
+  body {
+    width: 100%;
+  }
+}
